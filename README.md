@@ -1,6 +1,6 @@
 # Students
 A simple android app which displays a list of students and their respective data.
-A user can and or edit a students data.
+A user can add a new student or edit an exisiting students data.
 
  Install & try the app: [Download APK](https://drive.google.com/file/d/1i9sD4aG5QyO2PVUSN_AVUEArNl6UVDFd/view?usp=sharing)
  
