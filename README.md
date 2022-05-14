@@ -1,5 +1,5 @@
 # Students
-
+A simple android app which displays a list of students and their respective data. It stores users information in SQLite database provided by the android framework.
 
  ## Screenshots
 
