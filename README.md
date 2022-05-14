@@ -1,9 +1,10 @@
 # Students
 A simple android app which displays a list of students and their respective data.
-It stores users information in SQLite database provided by the android framework.
+A user can and or edit a students data.
 
-https://drive.google.com/file/d/1i9sD4aG5QyO2PVUSN_AVUEArNl6UVDFd/view?usp=sharing
-
+ Install & try the app: [Download APK](https://drive.google.com/file/d/1i9sD4aG5QyO2PVUSN_AVUEArNl6UVDFd/view?usp=sharing)
+ 
+ 
  ## Screenshots
 
 
@@ -22,3 +23,15 @@ https://drive.google.com/file/d/1i9sD4aG5QyO2PVUSN_AVUEArNl6UVDFd/view?usp=shari
 <a href="https://user-images.githubusercontent.com/42529024/168420581-a1b65a67-0c86-47ea-8c57-838e35bfecf5.png" target="_blank">
   <img src="https://user-images.githubusercontent.com/42529024/168420581-a1b65a67-0c86-47ea-8c57-838e35bfecf5.png" width="22%" />
 </a>
+
+## Working of the app
+ 
+ * This app displays a list of students academic information in its main ui screen.
+ * It fetches data from an [SQLite](https://github.com/sqlite/sqlite) database via a [ContentProvider](https://developer.android.com/guide/topics/providers/content-providers).
+ * The data is recieved in the form of a [Cursor](https://developer.android.com/reference/android/database/Cursor). The main ui screen is updated by a [CursorAdapter](https://developer.android.com/reference/android/widget/CursorAdapter) which uses this cursor as its dataset.
+ 
+ ## Features
+ * Users can add a student data such as name, roll number, branch and semester into the app. 
+ * This user entered data gets stored by android in the SQLite database.
+ * The data is conserved even after the app is being closed. Therefore users can refer to the student data later.
+ * Existing student data can be updated or deleted as desired by the specific user using the app.
