@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="array_branch_options">
+        <item>@string/select</item>
+        <item>@string/branch_chemical</item>
+        <item>@string/branch_civil</item>
+        <item>@string/branch_computer_science</item>
+        <item>@string/branch_electrical</item>
+        <item>@string/branch_electronics_and_communication</item>
+        <item>@string/branch_marine</item>
+        <item>@string/branch_mechanical</item>
+        <item>@string/branch_hotel_management</item>
+        <item>@string/branch_polytechnic</item>
+        <item>@string/branch_agriculture_science</item>
+    </string-array>
+
+
+    <string-array name="array_semester_options">
+        <item>@string/select</item>
+        <item>@string/semester_one</item>
+        <item>@string/semester_two</item>
+        <item>@string/semester_three</item>
+        <item>@string/semester_four</item>
+        <item>@string/semester_five</item>
+        <item>@string/semester_six</item>
+        <item>@string/semester_seven</item>
+        <item>@string/semester_eight</item>
+    </string-array>
+
+
+</resources>

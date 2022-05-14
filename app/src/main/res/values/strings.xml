@@ -1,0 +1,116 @@
+<resources>
+        <string name="app_name">Students</string>
+
+        <string name="category_name">Name</string>
+        <string name="category_branch">Branch</string>
+        <string name="category_roll_no">Roll No</string>
+        <string name="category_semester">Semester</string>
+        <string name="hint_student_name">Enter name of Student</string>
+        <string name="hint_roll_no">Enter roll number</string>
+        <string name="unknown_branch">Unknown branch</string>
+        <string name="editor_title_new_student">Add a Student</string>
+        <string name="editor_title_edit_student">Edit Student</string>
+
+
+
+        <string name="select">Select</string>
+        <string name="branch_chemical">Chemical Engineering</string>
+        <string name="branch_civil">Civil Engineering</string>
+        <string name="branch_computer_science">Computer Science Engineering</string>
+        <string name="branch_electrical">Electrical Engineering</string>
+        <string name="branch_electronics_and_communication">Electronics and Communication Engineering</string>
+        <string name="branch_marine">Marine Engineering</string>
+        <string name="branch_mechanical">Mechanical Engineering</string>
+        <string name="branch_hotel_management">Hotel Management</string>
+        <string name="branch_polytechnic">Polytechnic</string>
+        <string name="branch_agriculture_science">Agriculture Science</string>
+
+        <string name="semester_one">Semester 1</string>
+        <string name="semester_two">Semester 2</string>
+        <string name="semester_three">Semester 3</string>
+        <string name="semester_four">Semester 4</string>
+        <string name="semester_five">Semester 5</string>
+        <string name="semester_six">Semester 6</string>
+        <string name="semester_seven">Semester 7</string>
+        <string name="semester_eight">Semester 8</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Label for overflow menu option that inserts fake student data into the app [CHAR LIMIT=20] -->
+        <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+        <!-- Label for overflow menu option that deletes all student data in the app [CHAR LIMIT=20] -->
+        <string name="action_delete_all_entries">Delete All Students</string>
+
+        <!-- Title text for the empty view, which describes the empty dog house image [CHAR LIMIT=50] -->
+        <string name="empty_view_title_text">No students added yet</string>
+
+        <!-- Subtitle text for the empty view that prompts the user to add a student [CHAR LIMIT=50] -->
+        <string name="empty_view_subtitle_text">Get started by adding a student</string>
+
+
+
+
+
+        <!-- Label for editor menu option to save student and leave editor [CHAR LIMIT=20] -->
+        <string name="action_save">Save</string>
+
+        <!-- Label for editor overflow menu option that deletes the current student [CHAR LIMIT=20] -->
+        <string name="action_delete">Delete</string>
+
+        <!-- Toast message in editor when new student has been successfully inserted [CHAR LIMIT=NONE] -->
+        <string name="editor_insert_student_successful">Student saved</string>
+
+        <!-- Toast message in editor when new student has failed to be inserted [CHAR LIMIT=NONE] -->
+        <string name="editor_insert_student_failed">Error with saving student</string>
+
+        <!-- Toast message in editor when current student was successfully updated [CHAR LIMIT=NONE] -->
+        <string name="editor_update_student_successful">Student updated</string>
+
+        <!-- Toast message in editor when current student has failed to be updated [CHAR LIMIT=NONE] -->
+        <string name="editor_update_student_failed">Error with updating student</string>
+
+        <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+        <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+        <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+        <string name="discard">Discard</string>
+
+        <!-- Dialog button text for the option to keep editing the current student [CHAR LIMIT=20] -->
+        <string name="keep_editing">Keep Editing</string>
+
+        <!-- Toast message in editor when current student was successfully deleted [CHAR LIMIT=NONE] -->
+        <string name="editor_delete_student_successful">Student deleted</string>
+
+        <!-- Toast message in editor when current student has failed to be deleted [CHAR LIMIT=NONE] -->
+        <string name="editor_delete_student_failed">Error with deleting student</string>
+
+        <!-- Dialog message to ask the user to confirm deleting the current student [CHAR LIMIT=NONE] -->
+        <string name="delete_dialog_msg">Delete this student?</string>
+
+        <!-- Dialog button text for the option to confirm deleting the current student [CHAR LIMIT=20] -->
+        <string name="delete">Delete</string>
+
+        <!-- Dialog button text for the option to cancel deletion of the current student [CHAR LIMIT=20] -->
+        <string name="cancel">Cancel</string>
+
+
+</resources>

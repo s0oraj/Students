@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="blog.cosmos.home.students">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Editor"
+            android:exported="false"
+            android:label="@string/editor_title_new_student"
+            android:theme="@style/EditorTheme"
+            android:parentActivityName=".StudentsActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".StudentsActivity" />
+        </activity>
+
+
+        <activity
+            android:name=".StudentsActivity"
+            >
+        </activity>
+
+        <activity
+        android:name=".SplashScreen"
+        android:theme="@style/SplashTheme"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+        <provider
+            android:name=".data.StudentProvider"
+            android:authorities="blog.cosmos.home.students"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
